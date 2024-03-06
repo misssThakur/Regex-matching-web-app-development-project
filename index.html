@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex App</title>
+</head>
+<body>
+    <h1>Regex App</h1>
+    <h2>Regex Search</h2>
+    <form action="/results" method="post">
+        <label for="test_string">Test String:</label><br>
+        <input type="text" id="test_string" name="test_string" required><br>
+        <label for="regex_pattern">Regex Pattern:</label><br>
+        <input type="text" id="regex_pattern" name="regex_pattern" required><br>
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Email Validation</h2>
+    <form action="/validate_email" method="post">
+        <label for="email">Enter Email:</label><br>
+        <input type="text" id="email" name="email" required><br>
+        <button type="submit">Validate Email</button>
+    </form>
+</body>
+</html>
+
